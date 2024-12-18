@@ -1,0 +1,17 @@
+﻿<Application x:Class="Learn_English.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Learn_English"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles/StartPage/ButtonsStartPage.xaml"/>
+                <ResourceDictionary Source="Styles/Topics/ButtonTopics.xaml"/>
+                <ResourceDictionary Source="Styles/HomeStyles/Home.xaml"/>
+                <ResourceDictionary Source="Styles/TravelStyles/Travel.xaml"/>
+                <ResourceDictionary Source="Styles/EverydayLifeStyles/EverydayLife.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

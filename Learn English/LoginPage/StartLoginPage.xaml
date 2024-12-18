@@ -1,0 +1,61 @@
+﻿<Page x:Class="Learn_English.LoginPage.StartLoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Learn_English.LoginPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="StartLoginPage">
+
+    <Grid>
+        <Grid.Background>
+            <RadialGradientBrush RadiusX="0.35" RadiusY="0.8">
+                <GradientStop Color="LightBlue" Offset="0"/>
+                <GradientStop Color="Blue" Offset="1"/>
+            </RadialGradientBrush>
+        </Grid.Background>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/> 
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30*"/>
+                    <ColumnDefinition Width="40*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                <Image Height="100" Width="100" Source="letter-e.png"/>
+                <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                    <Image Height="150" Width="150" Source="user.png"/>
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnMale" Click="btnMale_Click" Grid.Column="0" Style="{StaticResource Male}"/>
+                        <Button x:Name="btnFemale" Click="btnFemale_Click" Grid.Column="1" Style="{StaticResource Female}"/>
+                    </Grid>
+                    <Grid Background="White" Height="30">
+                        <TextBox x:Name="boxName" IsEnabled="False" VerticalContentAlignment="Center" FontSize="20"
+                                 TextChanged="boxName_TextChanged" BorderThickness="1"  Background="Transparent"/>
+                        <TextBlock x:Name="blockName" VerticalAlignment="Center" Margin="5,0,0,0" FontSize="15"
+                                   FontWeight="Light" Text="Name..." Panel.ZIndex="-1" Background="Transparent"/>
+                    </Grid>
+                    <Button Style="{StaticResource OK}" x:Name="btnOK" IsCancel="True" IsEnabled="False" Click="OK_Click">
+                        <Button.Background>
+                            <LinearGradientBrush StartPoint="0,0.2" EndPoint="0. 0.7">
+                                <GradientStop Color="Blue" Offset="0"/>
+                                <GradientStop Color="Green" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+                <Image Grid.Column="2" Height="100" Width="100" Source="uk.png"/>
+            </Grid>
+            <TextBlock Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" 
+               Text="Hello, let's start learning" FontSize="50" FontFamily="MV Boli" Foreground="#FF2ED238"/>
+        </Grid>
+    </Grid>
+</Page>

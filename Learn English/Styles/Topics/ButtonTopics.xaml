@@ -1,0 +1,81 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="Home" TargetType="Button">
+        <Setter Property="FontSize" Value="50"/>
+        <Setter Property="Background" Value="#FF30BDCE"/>
+        <Setter Property="FontFamily" Value="Cascadia Code SemiBold"/>
+        <Setter Property="Margin" Value="10"/>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Cursor" Value="Hand"/>
+                <Setter Property="LayoutTransform">
+                    <Setter.Value>
+                        <ScaleTransform ScaleX="1.0" ScaleY="1.0"/>
+                    </Setter.Value>
+                </Setter>
+                <Trigger.EnterActions>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="LayoutTransform.(ScaleTransform.ScaleX)"
+                                             Duration="0:0:0.5" From="1.0" To="1.2"/>
+                            <DoubleAnimation Storyboard.TargetProperty="LayoutTransform.(ScaleTransform.ScaleY)"
+                                             Duration="0:0:0.5" From="1" To="1.2"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </Trigger.EnterActions>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="Adventure" TargetType="Button">
+        <Setter Property="FontSize" Value="50"/>
+        <Setter Property="Background" Value="#FFE0B136"/>
+        <Setter Property="FontFamily" Value="Mongolian Bait"/>
+        <Setter Property="Margin" Value="10"/>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Cursor" Value="Hand"/>
+                <Setter Property="LayoutTransform">
+                    <Setter.Value>
+                        <ScaleTransform ScaleX="1.0" ScaleY="1.0"/>
+                    </Setter.Value>
+                </Setter>
+                <Trigger.EnterActions>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="LayoutTransform.(ScaleTransform.ScaleX)"
+                                             Duration="0:0:0.5" From="1.0" To="1.2"/>
+                            <DoubleAnimation Storyboard.TargetProperty="LayoutTransform.(ScaleTransform.ScaleY)"
+                                             Duration="0:0:0.5" From="1.0" To="1.2"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </Trigger.EnterActions>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="Place" TargetType="Button">
+        <Setter Property="FontSize" Value="50"/>
+        <Setter Property="Background" Value="#FF9AC92C"/>
+        <Setter Property="FontFamily" Value="Segoe Script"/>
+        <Setter Property="Margin" Value="10"/>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Cursor" Value="Hand"/>
+                <Setter Property="LayoutTransform">
+                    <Setter.Value>
+                        <ScaleTransform ScaleX="1.0" ScaleY="1.0"/>
+                    </Setter.Value>
+                </Setter>
+                <Trigger.EnterActions>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="LayoutTransform.(ScaleTransform.ScaleX)"
+                                             Duration="0:0:0.5" From="1.0" To="1.2"/>
+                            <DoubleAnimation Storyboard.TargetProperty="LayoutTransform.(ScaleTransform.ScaleY)"
+                                             Duration="0:0:0.5" From="1.0" To="1.2"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </Trigger.EnterActions>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>

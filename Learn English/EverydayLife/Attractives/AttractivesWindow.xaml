@@ -1,0 +1,135 @@
+﻿<Window x:Class="Learn_English.EverydayLife.Attractives.AttractivesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Learn_English.EverydayLife.Attractives"
+        mc:Ignorable="d" MinHeight="460" MinWidth="930" 
+        WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        BorderThickness="2" BorderBrush="IndianRed"
+        Title="AttractivesWindow" Height="500" Width="1000">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="1,0.1" EndPoint="0,0.1">
+                <GradientStop Color="DarkSalmon" Offset="0"/>
+                <GradientStop Color="Tan" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="70*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="70*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" VerticalAlignment="Center" 
+                      HorizontalAlignment="Center">
+               <Image Margin="10" Source="castle.png"/>
+            </TextBlock>
+            <StackPanel Grid.Column="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Margin="10,0,0,0">
+               <Run FontSize="25" Foreground="#FF584444">                               
+                    In every city you can</Run><LineBreak/>
+               <Run FontSize="25" Foreground="#FF584444"> find interesting </Run>
+               <Run Foreground="IndianRed" FontSize="50" FontFamily="Mongolian Baiti">Attractions</Run>
+                    </TextBlock>
+                    <StackPanel Orientation="Horizontal" Margin="20,0,0,0">
+                        <Button x:Name="btnMin" Content="_" Click="btnMin_Click" Style="{StaticResource btnMenuEverydayLife}"/>
+                        <Button x:Name="btnMax" Content="|=|" Click="btnMax_Click" Style="{StaticResource btnMenuEverydayLife}"/>
+                        <Button x:Name="btnClose" Content="X" Click="btnClose_Click" Style="{StaticResource btnMenuEverydayLife}"/>
+                    </StackPanel>
+                </StackPanel>
+                <TextBlock FontSize="15"  Margin="30,10,0,0" VerticalAlignment="Bottom" 
+                                   Text="(W każdym mieście możesz znaleść ciekawe atrakcje)"/>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Style="{StaticResource blockEverydayLife}" 
+                          Grid.Row="0" Grid.Column="0">                   
+                I would like to see a <Run Foreground="Black" FontSize="15">( ogród Japoński )</Run> .
+                </TextBlock>
+                <TextBlock Style="{StaticResource blockEverydayLife}" 
+                          Grid.Row="1" Grid.Column="0">                      
+                I was visiting the <Run Foreground="Black" FontSize="15">( stare miasto ) </Run> .
+                </TextBlock>
+                <TextBlock Style="{StaticResource blockEverydayLife}" 
+                          Grid.Row="2" Grid.Column="0">                                              
+                 It's always worth trying <Run Foreground="Black" FontSize="15">( lokalne jedzenie ) </Run> .
+                </TextBlock>
+                <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal"
+                           VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Button x:Name="btnCheckJapaneseGarden" Click="btnCheckJapaneseGarden_Click" Style="{StaticResource HintEverydayLife}"/>
+                    <TextBox x:Name="japaneseGarden" FontSize="25" Style="{StaticResource txtEverydayLife}" Margin="0,2,50,2"/>
+                    <Button x:Name="btnJapaneseGarden" Click="btnJapaneseGarden_Click" Style="{StaticResource btnEverydayLife}" Width="80"/>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal"
+                           VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Button x:Name="btnCheckOldTown" Click="btnCheckOldTown_Click" Style="{StaticResource HintEverydayLife}"/>
+                    <TextBox x:Name="oldTown" Style="{StaticResource txtEverydayLife}" Margin="0,2,50,2"/>
+                    <Button x:Name="btnOldTown" Click="btnOldTown_Click" Style="{StaticResource btnEverydayLife}" Width="80"/>
+                </StackPanel>
+                <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal"
+                           VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Button x:Name="btnCheckLocalFood" Click="btnCheckLocalFood_Click" Style="{StaticResource HintEverydayLife}"/>
+                    <TextBox x:Name="localFood" Style="{StaticResource txtEverydayLife}" Margin="0,2,50,2"/>
+                    <Button x:Name="btnLocalFood" Click="btnLocalFood_Click" Style="{StaticResource btnEverydayLife}" Width="80"/>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal"
+                           HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button x:Name="btnCheckMuseum" Click="btnCheckMuseum_Click" Style="{StaticResource HintEverydayLife}"/>
+                    <Image Source="british-museum.png" Height="70"/>
+                    <TextBox x:Name="museum" Style="{StaticResource txtEverydayLife}"/>
+                    <Button x:Name="btnMuseum" Click="btnMuseum_Click" Style="{StaticResource btnEverydayLife}"/>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal"
+                           HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button x:Name="btnCheckAmusementPark" Click="btnCheckAmusementPark_Click" Style="{StaticResource HintEverydayLife}"/>
+                    <Image Source="fair.png" Height="70"/>
+                    <TextBox x:Name="amusementPark" FontSize="25" Style="{StaticResource txtEverydayLife}"/>
+                    <Button x:Name="btnAmusementPark" Click="btnAmusementPark_Click" Style="{StaticResource btnEverydayLife}"/>
+                </StackPanel>
+                <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal"
+                           HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button x:Name="btnCheckTrampoline" Click="btnCheckTrampoline_Click" Style="{StaticResource HintEverydayLife}"/>
+                    <Image Source="trampoline.png" Height="70"/>
+                    <TextBox x:Name="trampoline" Style="{StaticResource txtEverydayLife}"/>
+                    <Button x:Name="btnTrampoline" Click="btnTrampoline_Click" Style="{StaticResource btnEverydayLife}"/>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal"
+                           HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button x:Name="btnCheckZoo" Click="btnCheckZoo_Click" Style="{StaticResource HintEverydayLife}"/>
+                    <Image Source="zoo.png" Height="70"/>
+                    <TextBox x:Name="zoo" Style="{StaticResource txtEverydayLife}"/>
+                    <Button x:Name="btnZoo" Click="btnZoo_Click" Style="{StaticResource btnEverydayLife}"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,138 @@
+﻿<Window x:Class="Learn_English.Home.Kitchen.KitchenWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Learn_English.Home.Kitchen"
+        mc:Ignorable="d" MinHeight="460" MinWidth="1000" 
+        WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        BorderThickness="2" BorderBrush="#FF800202"
+        Title="KitchenWindow" Height="500" Width="1000">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="1,0.1" EndPoint="0,0.1">
+                <GradientStop Color="coral" Offset="0"/>
+                <GradientStop Color="Brown" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="70*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="70*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" VerticalAlignment="Center" 
+                       HorizontalAlignment="Center">
+            <Image Margin="10" Source="kitchen.png"/>
+            </TextBlock>
+            <StackPanel Grid.Column="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Margin="10,0,0,0">
+                <Run FontSize="25" Foreground="Green">The</Run>
+                <Run Foreground="#FF800202" FontSize="50" FontFamily="MV Boli">Kitchen</Run>
+                <Run FontSize="25" Foreground="Green">is the place where </Run><LineBreak/>
+                    </TextBlock>
+                    <StackPanel Orientation="Horizontal" Margin="50,0,0,0">
+                        <Button x:Name="btnMin" Content="_" Click="btnMin_Click" Style="{StaticResource btnMenuHome}"/>
+                        <Button x:Name="btnMax" Content="|=|" Click="btnMax_Click" Style="{StaticResource btnMenuHome}"/>
+                        <Button x:Name="btnClose" Content="X" Click="btnClose_Click" Style="{StaticResource btnMenuHome}"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="25" Margin="30,0,0,0" Foreground="Green"
+                               Text="you prepare your meals."/>
+                    <TextBlock FontSize="15"  Margin="15,0,0,0" VerticalAlignment="Bottom" 
+                               Text="(Kuchnia jest miejscem w którym przygotowujesz posiłki)"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Style="{StaticResource blockHome}" 
+                           Grid.Row="0" Grid.Column="0">
+                    I like <Run Foreground="Black" FontSize="15">( gotować )</Run> in my kitchen.
+                </TextBlock>
+                <TextBlock Style="{StaticResource blockHome}" 
+                           Grid.Row="1" Grid.Column="0">       
+                 I have new <Run Foreground="Black" FontSize="15">( garnki )</Run> in my kitchen.
+                </TextBlock>
+                <TextBlock Style="{StaticResource blockHome}" 
+                           Grid.Row="2" Grid.Column="0">
+                    I eat <Run Foreground="Black" FontSize="15">( zielone warzywa )</Run> every day.
+                </TextBlock>
+                <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal"
+                            VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Button x:Name="btnCheckCook" Click="btnCheckCook_Click" Style="{StaticResource HintHome}"/>
+                    <TextBox x:Name="cook" Style="{StaticResource txtHome}" Margin="0,2,50,2"/>
+                    <Button x:Name="btnCook" Click="btnCook_Click" Style="{StaticResource btnHome}" Width="80"/>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal"
+                            VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Button x:Name="btnCheckPots" Click="btnCheckPots_Click" Style="{StaticResource HintHome}"/>
+                    <TextBox x:Name="pots" Style="{StaticResource txtHome}" Margin="0,2,50,2"/>
+                    <Button x:Name="btnPots" Click="btnPots_Click" Style="{StaticResource btnHome}" Width="80"/>
+                </StackPanel>
+                <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" 
+                            VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Button x:Name="btnCheckVegetables" Click="btnCheckVegetables_Click" Style="{StaticResource HintHome}"/>
+                    <TextBox x:Name="vegetables" Style="{StaticResource txtHome}" FontSize="20" Margin="0,2,50,2"/>
+                    <Button x:Name="btnVegetables" Click="btnVegetables_Click" Style="{StaticResource btnHome}" Width="80"/>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal"
+                            HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button x:Name="btnCheckPan" Click="btnCheckPan_Click" Style="{StaticResource HintHome}"/>
+                    <Image Source="frying-pan.png" Height="70"/>
+                    <TextBox x:Name="pan" Style="{StaticResource txtHome}"/>
+                    <Button x:Name="btnPan" Click="btnPan_Click" Style="{StaticResource btnHome}"/>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal"
+                            HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button x:Name="btnCheckPlate" Click="btnCheckPlate_Click" Style="{StaticResource HintHome}"/>
+                    <Image Source="dish.png" Height="70"/>
+                    <TextBox x:Name="plate" Style="{StaticResource txtHome}"/>
+                    <Button x:Name="btnPlate" Click="btnPlate_Click" Style="{StaticResource btnHome}"/>
+                </StackPanel>
+                <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal"
+                            HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button x:Name="btnCheckFork" Click="btnCheckFork_Click" Style="{StaticResource HintHome}"/>
+                    <Image Source="fork.png" Height="70"/>
+                    <TextBox x:Name="fork" Style="{StaticResource txtHome}"/>
+                    <Button x:Name="btnFork" Click="btnFork_Click" Style="{StaticResource btnHome}"/>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal"
+                            HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button x:Name="btnCheckSpoon" Click="btnCheckSpoon_Click" Style="{StaticResource HintHome}"/>
+                    <Image Source="spoon.png" Height="70"/>
+                    <TextBox x:Name="spoon" Style="{StaticResource txtHome}"/>
+                    <Button x:Name="btnSpoon" Click="btnSpoon_Click" Style="{StaticResource btnHome}"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

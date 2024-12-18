@@ -1,0 +1,100 @@
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\bin\Debug\Learn English.exe.config
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\bin\Debug\Learn English.exe
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\bin\Debug\Learn English.pdb
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Learn English.csproj.AssemblyReference.cache
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\MainWindow.g.cs
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\App.g.cs
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Learn English_MarkupCompile.cache
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Learn English_MarkupCompile.lref
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\MainWindow.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Learn English.g.resources
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Learn_English.Properties.Resources.resources
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Learn English.csproj.GenerateResource.cache
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Learn English.csproj.CoreCompileInputs.cache
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Learn English.exe
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Learn English.pdb
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\LoginPage\StartLoginPage.g.cs
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\LoginPage\StartLoginPage.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\App.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\LessonTopics\Topics.g.cs
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\LessonTopics\Topics.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Styles\Topics\ButtonTopics.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Styles\StartPage\ButtonsStartPage.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Home\Kitchen\KitchenWindow.g.cs
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Home\Kitchen\KitchenWindow.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Home\LivingRoom\LivingRoomWindow.g.cs
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Home\LivingRoom\LivingRoomWindow.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Styles\HomeStyles\Home.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Home\Bedroom\BedroomWindow.g.cs
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Home\Bedroom\BedroomWindow.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Home\Bathroom\BathroomWindow.g.cs
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Home\Bathroom\BathroomWindow.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Styles\TravelStyles\Travel.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Travel\Plane\PlaneWindow.g.cs
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Travel\Plane\PlaneWindow.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Travel\Car\CarWindow.g.cs
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Travel\Car\CarWindow.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Travel\Bus\BusWindow.g.cs
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Travel\Bus\BusWindow.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Travel\Train\TrainWindow.g.cs
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Travel\Train\TrainWindow.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\EverydayLife\Places\PlacesWindow.g.cs
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\EverydayLife\Places\PlacesWindow.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\Styles\EverydayLifeStyles\EverydayLife.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\EverydayLife\Attractives\AttractivesWindow.g.cs
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\EverydayLife\Attractives\AttractivesWindow.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\EverydayLife\Views\ViewsWindow.g.cs
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\EverydayLife\Views\ViewsWindow.baml
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\EverydayLife\Relax\RelaxWindow.g.cs
+C:\Users\Robson\Desktop\projekty visual studio\Learn English\obj\Debug\EverydayLife\Relax\RelaxWindow.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\bin\Debug\Learn English.exe.config
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\bin\Debug\Learn English.exe
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\bin\Debug\Learn English.pdb
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Learn English.csproj.AssemblyReference.cache
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Styles\EverydayLifeStyles\EverydayLife.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Styles\HomeStyles\Home.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Styles\StartPage\ButtonsStartPage.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Styles\Topics\ButtonTopics.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Styles\TravelStyles\Travel.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\EverydayLife\Attractives\AttractivesWindow.g.cs
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\EverydayLife\Places\PlacesWindow.g.cs
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\EverydayLife\Relax\RelaxWindow.g.cs
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\EverydayLife\Views\ViewsWindow.g.cs
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Home\Bathroom\BathroomWindow.g.cs
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Home\Bedroom\BedroomWindow.g.cs
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Home\Kitchen\KitchenWindow.g.cs
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Home\LivingRoom\LivingRoomWindow.g.cs
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\LessonTopics\Topics.g.cs
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\LoginPage\StartLoginPage.g.cs
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\MainWindow.g.cs
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Travel\Bus\BusWindow.g.cs
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Travel\Car\CarWindow.g.cs
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Travel\Plane\PlaneWindow.g.cs
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Travel\Train\TrainWindow.g.cs
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\App.g.cs
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Learn English_MarkupCompile.cache
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Learn English_MarkupCompile.lref
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\App.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\EverydayLife\Attractives\AttractivesWindow.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\EverydayLife\Places\PlacesWindow.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\EverydayLife\Relax\RelaxWindow.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\EverydayLife\Views\ViewsWindow.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Home\Bathroom\BathroomWindow.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Home\Bedroom\BedroomWindow.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Home\Kitchen\KitchenWindow.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Home\LivingRoom\LivingRoomWindow.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\LessonTopics\Topics.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\LoginPage\StartLoginPage.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\MainWindow.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Travel\Bus\BusWindow.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Travel\Car\CarWindow.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Travel\Plane\PlaneWindow.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Travel\Train\TrainWindow.baml
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Learn English.g.resources
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Learn_English.Properties.Resources.resources
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Learn English.csproj.GenerateResource.cache
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Learn English.csproj.CoreCompileInputs.cache
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Learn English.exe
+C:\Users\Robson\Desktop\Aplikacja Learn English\Learn English\obj\Debug\Learn English.pdb

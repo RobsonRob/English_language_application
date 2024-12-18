@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DE0B776C-7DED-4CCC-B600-8CF195DC0CA7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Learn_English</RootNamespace>
+    <AssemblyName>Learn English</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="EverydayLife\Attractives\AttractivesWindow.xaml.cs">
+      <DependentUpon>AttractivesWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EverydayLife\Places\PlacesWindow.xaml.cs">
+      <DependentUpon>PlacesWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EverydayLife\Relax\RelaxWindow.xaml.cs">
+      <DependentUpon>RelaxWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EverydayLife\Views\ViewsWindow.xaml.cs">
+      <DependentUpon>ViewsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Bathroom\BathroomWindow.xaml.cs">
+      <DependentUpon>BathroomWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Bedroom\BedroomWindow.xaml.cs">
+      <DependentUpon>BedroomWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Kitchen\KitchenWindow.xaml.cs">
+      <DependentUpon>KitchenWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Home\LivingRoom\LivingRoomWindow.xaml.cs">
+      <DependentUpon>LivingRoomWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LessonTopics\Topics.xaml.cs">
+      <DependentUpon>Topics.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LessonTopics\ViewWindow.cs" />
+    <Compile Include="LoginPage\StartLoginPage.xaml.cs">
+      <DependentUpon>StartLoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Travel\Bus\BusWindow.xaml.cs">
+      <DependentUpon>BusWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Travel\Car\CarWindow.xaml.cs">
+      <DependentUpon>CarWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Travel\Plane\PlaneWindow.xaml.cs">
+      <DependentUpon>PlaneWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Travel\Train\TrainWindow.xaml.cs">
+      <DependentUpon>TrainWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="EverydayLife\Attractives\AttractivesWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EverydayLife\Places\PlacesWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EverydayLife\Relax\RelaxWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EverydayLife\Views\ViewsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Home\Bathroom\BathroomWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Home\Bedroom\BedroomWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Home\Kitchen\KitchenWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Home\LivingRoom\LivingRoomWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LessonTopics\Topics.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoginPage\StartLoginPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Styles\EverydayLifeStyles\EverydayLife.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\HomeStyles\Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\StartPage\ButtonsStartPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\Topics\ButtonTopics.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\TravelStyles\Travel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Travel\Bus\BusWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Travel\Car\CarWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Travel\Plane\PlaneWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Travel\Train\TrainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="LoginPage\letter-e.png" />
+    <Resource Include="LoginPage\uk.png" />
+    <Resource Include="LoginPage\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="LessonTopics\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="LessonTopics\sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="LessonTopics\street-map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Home\Kitchen\kitchen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Home\Kitchen\dish.png" />
+    <Resource Include="Home\Kitchen\fork.png" />
+    <Resource Include="Home\Kitchen\frying-pan.png" />
+    <Resource Include="Home\Kitchen\spoon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Home\LivingRoom\living-room.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Home\LivingRoom\chair.png" />
+    <Resource Include="Home\LivingRoom\clock.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Home\LivingRoom\sofa.png" />
+    <Resource Include="Home\LivingRoom\tv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Home\Bedroom\bedroom.png" />
+    <Resource Include="Home\Bedroom\bookshelf.png" />
+    <Resource Include="Home\Bedroom\alarm-clock.png" />
+    <Resource Include="Home\Bedroom\pillow.png" />
+    <Resource Include="Home\Bedroom\table-lamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Home\Bathroom\bath.png" />
+    <Resource Include="Home\Bathroom\sink.png" />
+    <Resource Include="Home\Bathroom\toilet.png" />
+    <Resource Include="Home\Bathroom\toothpaste.png" />
+    <Resource Include="Home\Bathroom\towel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Travel\Plane\information-board.png" />
+    <Resource Include="Travel\Plane\luggage.png" />
+    <Resource Include="Travel\Plane\passport.png" />
+    <Resource Include="Travel\Plane\plane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Travel\Plane\check-in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Travel\Car\car-door.png" />
+    <Resource Include="Travel\Car\car-seat.png" />
+    <Resource Include="Travel\Car\car-wheel.png" />
+    <Resource Include="Travel\Car\steering-wheel.png" />
+    <Resource Include="Travel\Car\transport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Travel\Bus\bus-stop.png" />
+    <Resource Include="Travel\Bus\bus.png" />
+    <Resource Include="Travel\Bus\headlight.png" />
+    <Resource Include="Travel\Bus\mirror.png" />
+    <Resource Include="Travel\Bus\traffic-lights.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Travel\Train\track.png" />
+    <Resource Include="Travel\Train\train-platform.png" />
+    <Resource Include="Travel\Train\train.png" />
+    <Resource Include="Travel\Train\wagon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Travel\Train\railroad-crossing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="EverydayLife\Places\cinema-screen.png" />
+    <Resource Include="EverydayLife\Places\hospital.png" />
+    <Resource Include="EverydayLife\Places\map-pointer.png" />
+    <Resource Include="EverydayLife\Places\mechanic.png" />
+    <Resource Include="EverydayLife\Places\restaurant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="EverydayLife\Attractives\british-museum.png" />
+    <Resource Include="EverydayLife\Attractives\castle.png" />
+    <Resource Include="EverydayLife\Attractives\fair.png" />
+    <Resource Include="EverydayLife\Attractives\trampoline.png" />
+    <Resource Include="EverydayLife\Attractives\zoo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="EverydayLife\Views\backpack.png" />
+    <Resource Include="EverydayLife\Views\binoculars.png" />
+    <Resource Include="EverydayLife\Views\mountain.png" />
+    <Resource Include="EverydayLife\Views\signpost.png" />
+    <Resource Include="EverydayLife\Views\trekking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="EverydayLife\Relax\bicycle.png" />
+    <Resource Include="EverydayLife\Relax\hammock %281%29.png" />
+    <Resource Include="EverydayLife\Relax\hammock.png" />
+    <Resource Include="EverydayLife\Relax\training.png" />
+    <Resource Include="EverydayLife\Relax\trees.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

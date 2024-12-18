@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Robson\\Desktop\\Aplikacja Learn English\\Learn English\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE0B776C-7DED-4CCC-B600-8CF195DC0CA7}|Learn English.csproj|c:\\users\\robson\\desktop\\aplikacja learn english\\learn english\\loginpage\\startloginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE0B776C-7DED-4CCC-B600-8CF195DC0CA7}|Learn English.csproj|solutionrelative:loginpage\\startloginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE0B776C-7DED-4CCC-B600-8CF195DC0CA7}|Learn English.csproj|C:\\Users\\Robson\\Desktop\\Aplikacja Learn English\\Learn English\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE0B776C-7DED-4CCC-B600-8CF195DC0CA7}|Learn English.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE0B776C-7DED-4CCC-B600-8CF195DC0CA7}|Learn English.csproj|C:\\Users\\Robson\\Desktop\\Aplikacja Learn English\\Learn English\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE0B776C-7DED-4CCC-B600-8CF195DC0CA7}|Learn English.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StartLoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Robson\\Desktop\\Aplikacja Learn English\\Learn English\\LoginPage\\StartLoginPage.xaml",
+              "RelativeDocumentMoniker": "LoginPage\\StartLoginPage.xaml",
+              "ToolTip": "C:\\Users\\Robson\\Desktop\\Aplikacja Learn English\\Learn English\\LoginPage\\StartLoginPage.xaml",
+              "RelativeToolTip": "LoginPage\\StartLoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-18T09:20:28.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Robson\\Desktop\\Aplikacja Learn English\\Learn English\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Robson\\Desktop\\Aplikacja Learn English\\Learn English\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-05T08:57:17.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Robson\\Desktop\\Aplikacja Learn English\\Learn English\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Robson\\Desktop\\Aplikacja Learn English\\Learn English\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:57:15.235Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
